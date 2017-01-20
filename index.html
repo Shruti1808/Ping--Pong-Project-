@@ -10,9 +10,12 @@
 </head>
 <body>
   <div class="container-fluid">
+    <!-- <!Header ....> -->
     <div class="jumbotron">
-      <h1>Ping-Pong</h1>
+     <h1>Ping-Pong</h1>
     </div>
+
+    <!-- Sidebar -->
     <div class="row">
       <div class="col-sm-3">
         <div id="sidebar">
@@ -25,28 +28,31 @@
         </div>
       </div>
     </div>
+    <!-- Content -->
+   <div class="content">
+     <h3>Let's Play!</h3>
+     <h4>Rules:</h4>
+     <p>Ping Pong will count up to your number from 1 to 30 with the following exceptions:</p>
+     <ol>
+       <li>Numbers divisible by 3 will become "ping"</li>
+       <li>Numbers divisible by 5 will become "pong"</li>
+       <li>Numbers divisible by 15 will become "pingpong"</li>
+     </ol>
+    </div>
 
-      <h3>Let's Play!</h3>
-      <h4>Rules:</h4>
-      <p>Ping Pong will count up to your number from 1 to 30 with the following exceptions:</p>
-      <ol>
-        <li>Numbers divisible by 3 will become "ping"</li>
-        <li>Numbers divisible by 5 will become "pong"</li>
-        <li>Numbers divisible by 15 will become "pingpong"</li>
-      </ol>
-
+<!-- Form goes here -->
 <div class="row">
   <div class="col-sm-3">
     <form id="ping-pong">
         <div class="form-group">
           <label for="numberInput"><strong>Please enter a number: </strong></label>
-          <input type="number" name="ping-pong" value="1-30">
+          <input id ="number" type="number" value="1-30">
         </div>
         <button type="submit" class= "btn btn-primary">Ping-Pong!</button>
     </form>
     </div>
     </div>
-
+<!-- Result -->
     <div class="output" >
         <p>
           <span id= "result"></span>

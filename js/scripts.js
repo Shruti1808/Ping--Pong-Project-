@@ -3,13 +3,25 @@ var numberList =[1 ,2 ,3, 4, 5, 6, 7, 8, 9, 10, 11,12, 13 ,14, 15,16, 17, 18 ,19
 
 var pingPong =function(number){
  var resultArray = [];
+ if(number === 0){
+   return alert("Please enter a valid number");
+ }else if (typeof(number)=== "string") {
+   return alert("Please enter a valid value");
+
+
+ }
  for (i=0 ; i <= numberList.length; i++){
-  if((i% 3)=== 0){
+  if((numberList[i] % 3)=== 0){
     resultArray
-  }
+  }else if ((numberList[i] % 5 === 0){
+   resultArray
+ }else if (numberList[i]% 15 ===0){
+   resultArray
+
+ }
 
 
-
+return resultArray;
 
  }
 }
@@ -32,3 +44,5 @@ var pingPong =function(number){
 $(document).ready(function(){
   $('.submit').click(function(event){
     event.preventDefault();
+
+    var Input =parseInt($()).val());

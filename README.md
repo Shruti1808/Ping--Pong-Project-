@@ -37,7 +37,7 @@ Example Output : Please enter a whole number.
 
 5. The given number should not be a string or a special character:
 Example Input : apple , #
-Example Output : Please enter a positive number.
+Example Output : Please enter a valid value.
 
 6. If number provided is divisible by 3 i.e the sum of the digits is divisible by 3;
 Example Input : 12 = 1+2 =3;
