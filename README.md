@@ -23,33 +23,33 @@ This project demonstrates the concept of Arrays and Looping in Javascript and jQ
 ## Specifications:
 
 1. It can count from 1 up to the given number :
-  Example Input : 4
-  Example Output : [1,2,3,4]
-2. The given number should not be more than set value i.e 30 as per my project.
+    Example Input : 4
+    Example Output : [1,2,3,4]
 
-3.The number provided should not be zero or a negative integer.
+
+2.The number provided should not be zero or a negative integer.
   Example Input : 0 , -2
-  Example Output : Please enter a valid number.
+  Example Output : Please enter a valid input.
 
-4. The number provided should not be in decimals.
-Example Input : 23.5
-Example Output : Please enter a whole number.
+3. The number provided should not be in decimals.
+ Example Input : 23.5
+ Example Output : Please enter a whole number.
 
-5. The given number should not be a string or a special character:
+4. The given number should not be a string or a special character:
 Example Input : apple , #
 Example Output : Please enter a valid value.
 
-6. If number provided is divisible by 3 i.e the sum of the digits is divisible by 3;
-Example Input : 12 = 1+2 =3;
-Example Output : Ping
+5. If number provided is divisible by 3 ,it should be replaced with "ping"
+Example Input : 3
+Example Output : 1, 2, ping.
 
-7.The number provided is divisible by 5 i.e the number ends with 0 or 5;
-Example Input : 25 ,50
-Example Output : Pong
+6.The number provided is divisible by 5, it should be replaced with "pong";
+Example Input : 5
+Example Output : 1, 2, ping, 4, pong.
 
-8.The number provided is divisible by 15 i.e. it should be divisible by both 3 and 5;
-Example Input : 45 = 4+5 =9 which is divisible by 3 and also by 5.
-Example Output : Ping-Pong
+7.The number provided is divisible by 15 i.e. it should be divisible by both 3 and 5, it should be replaced with "ping-pong";
+Example Input : 15 which is divisible by 3 and also by 5.
+Example Output : 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong
 
 
 Referral Link :
