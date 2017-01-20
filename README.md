@@ -30,15 +30,23 @@ This project demonstrates the concept of Arrays and Looping in Javascript and jQ
   Example Input : 0 , -2
   Example Output : Please enter a valid number.
 
-3. If number provided is divisible by 3 i.e the sum of the digits is divisible by 3;
-Example Input : 12 = 1+2 =3;
-Example Output : Ping 
+3. The number provided should not be in decimals.
+Example Input : 23.5
+Example Output : Please enter a whole number.
 
-4.The number provided is divisible by 5 i.e the number ends with 0 or 5;
+4. The given number should not be a string or a special character:
+Example Input : apple , #
+Example Output : Please enter a positive number.
+
+5. If number provided is divisible by 3 i.e the sum of the digits is divisible by 3;
+Example Input : 12 = 1+2 =3;
+Example Output : Ping
+
+6.The number provided is divisible by 5 i.e the number ends with 0 or 5;
 Example Input : 25 ,50
 Example Output : Pong
 
-5.The number provided is divisible by 15 i.e. it should be divisible by both 3 and 5;
+7.The number provided is divisible by 15 i.e. it should be divisible by both 3 and 5;
 Example Input : 45 = 4+5 =9 which is divisible by 3 and also by 5.
 Example Output : Ping-Pong
 
