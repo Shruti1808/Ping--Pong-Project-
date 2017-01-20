@@ -23,6 +23,7 @@ var pingPong =function(number){
       }else if (i % 3 && i % 5 ===0){
         rangeArray.push("ping-pong");
       }
+      // For counting the given number by the user
       else {
         rangeArray.push(i);
       }
@@ -34,13 +35,15 @@ var pingPong =function(number){
 
 // <!......User interface logic starts here....!>
 $(document).ready(function(){
-  $("form#user-input").submit(function(event){
+  $("form").submit(function(event){
     event.preventDefault();
+    alert ("hey");
 
-    var userInput =parseInt($("#input-number")).val());
+    var userInput =parseInt($("#input-number").val());
     // Takes user input and then converts that into an integer
     var rangeArrayresult = pingPong(userInput);
     $("#result").text(rangeArrayresult);
+    pingPong(userInput);
 
    });
- };
+ });
