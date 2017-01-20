@@ -12,13 +12,12 @@ var pingPong =function(number){
  }
  for (i=0 ; i <= numberList.length; i++){
   if((numberList[i] % 3)=== 0){
-    resultArray
+    resultArray.push("ping");
   }else if ((numberList[i] % 5 === 0){
-   resultArray
+   resultArray.push("pong");
  }else if (numberList[i]% 15 ===0){
-   resultArray
-
- }
+   resultArray.push("ping-pong");
+}
 
 
 return resultArray;
@@ -26,23 +25,9 @@ return resultArray;
  }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // <!......User interface logic starts here....!>
 $(document).ready(function(){
-  $('.submit').click(function(event){
+  $("form#ping-pong").submit(function(event){
     event.preventDefault();
 
-    var Input =parseInt($()).val());
+    var Input =parseInt($("input#number")).val());
