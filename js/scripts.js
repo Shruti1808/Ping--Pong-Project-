@@ -5,7 +5,7 @@ var pingPong =function(number){
  var resultArray = [];
  for (i=0 ; i <= numberList.length; i++){
   if((i% 3)=== 0){
-    resultArray 
+    resultArray
   }
 
 
@@ -29,3 +29,6 @@ var pingPong =function(number){
 
 
 // <!......User interface logic starts here....!>
+$(document).ready(function(){
+  $('.submit').click(function(event){
+    event.preventDefault();
