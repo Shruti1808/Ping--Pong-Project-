@@ -7,9 +7,9 @@
 ## Description
 
 This project takes a number input from user and returns output in the form of a range of numbers from 1 to the provided number. Exceptions include :
-*_Numbers that are divisible by 3_
-*_Numbers that are divisible by 5_
-*_Numbers that are divisible by 15_
+*_Numbers that are divisible by 3 are replaced with "ping"
+*_Numbers that are divisible by 5 are replaced with "pong"
+*_Numbers that are divisible by 15 are replaced with "ping-pong"
 
 This project demonstrates the concept of Arrays and Looping in Javascript and jQuery. Also,it helps to understand the difference between User logic and Business logic.
 
@@ -22,13 +22,29 @@ This project demonstrates the concept of Arrays and Looping in Javascript and jQ
 
 ## Specifications:
 
+1. It can count from 1 up to the given number :
+  Example Input : 4
+  Example Output : [1,2,3,4]
 
+2.The number provided should not be zero or a negative integer.
+  Example Input : 0 , -2
+  Example Output : Please enter a valid number.
 
+3. If number provided is divisible by 3 i.e the sum of the digits is divisible by 3;
+Example Input : 12 = 1+2 =3;
+Example Output : Ping 
 
+4.The number provided is divisible by 5 i.e the number ends with 0 or 5;
+Example Input : 25 ,50
+Example Output : Pong
+
+5.The number provided is divisible by 15 i.e. it should be divisible by both 3 and 5;
+Example Input : 45 = 4+5 =9 which is divisible by 3 and also by 5.
+Example Output : Ping-Pong
 
 
 Referral Link :
-
+View the source code at :
 https://github.com/Shruti1808/Ping--Pong-Project-.git
 
 ## Known Bugs
