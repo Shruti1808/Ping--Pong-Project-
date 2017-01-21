@@ -5,6 +5,15 @@
   text-align: center;
   background-color: #E6E6E6;
 }
+
+body{
+  background-image: url(../img/best.jpg);
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
+
+}
 h1{
   width: 100%;
   text-align: center;
@@ -22,8 +31,16 @@ h3{
 h4{
   font-weight: bolder;
 }
+.input{
+  background-color: #69656f;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  padding: 20px;
+}
 
 #sidebar{
+  float:left;
   margin: 0;
   background-color: #8FBC8E;
   padding-bottom: 100%;
@@ -32,16 +49,17 @@ h4{
   padding-top: 15px;
 }
 
-.content{
-  float:right;
+#content{
+  float:center;
   width: 70%;
   padding: 30px;
+  margin: 0;
+  color:orange;
+  font-weight: bolder;
+
 }
 
-a:link {
-  text-decoration: none;
-
-}
 #user-input{
   text-align: left;
+  align-content: center;
 }

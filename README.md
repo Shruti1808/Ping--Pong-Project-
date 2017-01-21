@@ -1,6 +1,6 @@
 # _Ping Pong Project _
 
-#### , January 20,2017_
+#### An application that takes a number from a user and returns a range of numbers. January 20,2017_
 
 #### By _Shruti Priya_
 
@@ -25,7 +25,6 @@ This project demonstrates the concept of Arrays and Looping in Javascript and jQ
 1. It can count from 1 up to the given number :
     Example Input : 4
     Example Output : [1,2,3,4]
-
 
 2.The number provided should not be zero or a negative integer.
   Example Input : 0 , -2
